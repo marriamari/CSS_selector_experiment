@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #a85a2f;
+}
+
+.flexParent {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.flexParent > div{
+	color: #c9b9af;
+	font-size: 60px;
+}
+
+.fallText p:last-child{
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+}
+
+.flexParent p{
+	font-family: monospace;
+	font-size: 30px;
+}
+
+a {
+	position: absolute;
+	margin-top: 600px;
+	font-size: 30px;
+	color: #d48b5d;
+}
+
+a:hover {
+	color: #c9b9af;
+}
+
+a:active {
+	color: #943b03;
+}
+
+.leafImage {
+	width: 100%;
+}
